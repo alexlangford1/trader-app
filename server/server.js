@@ -12,7 +12,7 @@ const { SERVER_PORT, CONNECTION_STRING } = process.env
 massive(CONNECTION_STRING).then((db) => {
     app.set("db", db)
     console.log("DB Set")
-})
+});
 
 // **********************************
 
